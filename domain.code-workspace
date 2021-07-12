@@ -1,0 +1,8 @@
+{
+	"folders": [
+		{
+			"name": "SSH FS - events",
+			"uri": "ssh://events/apps/events.calendar.leader.codes/"
+		}
+	]
+}
