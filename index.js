@@ -33,13 +33,13 @@ const bodyParser = require("body-parser");
 server.use(
   express.urlencoded({
     
-    // extended: true,
-    // limit: '100mb',
-    // parameterLimit:100000
+    extended: true,
+    limit: '100mb',
+    parameterLimit:100000
   }),
   express.json({
     extended: true,
-    // limit: '100mb'
+    limit: '100mb'
   })
 );
 server.use(fileUpload({ createParentPath: true }));
