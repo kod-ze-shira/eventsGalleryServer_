@@ -5,6 +5,7 @@ const {keys } = require('../config/keys')
 
 const isPermission = async (req, res) => {
 
+    
     if (req.headers['authorization'] !== 'view') {
 
         console.log('-------isPermission-------')
