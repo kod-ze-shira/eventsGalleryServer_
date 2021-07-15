@@ -27,12 +27,14 @@ server.use(cookieParser());
 server.use(cors());
 
 
+
+
+
 server.use(express.static(path.join(__dirname, "./build"))); // this is serve for react file
 
 const bodyParser = require("body-parser");
 server.use(
-  express.urlencoded({
-    
+  express.urlencoded({ 
     extended: true,
     limit: '100mb',
     parameterLimit:100000
