@@ -150,7 +150,7 @@ const getPageEventsGallery = async (req, res) => {
  return res.status(200).json({date:`https://events.calendar.dev.leader.codes/${req.params.userName}`})
 }
 
-const browser = await puppeteer.launch({ignoreDefaultArgs: ['--disable-extensions']});
+const browser =  puppeteer.launch({ignoreDefaultArgs: ['--disable-extensions']});
 
 //    const page = await browser.newPage();
 //     await page.goto(`https://events.calendar.dev.leader.codes/${req.params.userName}`);

@@ -72,6 +72,7 @@ sumRegister = async (req, res) => {
   let sendEventToLeaderBox = await sendToLeaderBox(emailBody, "new register", currentUser.username);
 }
 
+
 addContact = async (req, res) => {
   console.log("------------------------------------------");
   console.log("req submi", req.submition)
