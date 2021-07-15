@@ -20,15 +20,11 @@ const fileUpload = require("express-fileupload");
 const queryString = require('query-string');
 
 // const mongoose = require("mongoose");
-
+///error
 
 server.use(cookieParser());
 
 server.use(cors());
-
-
-
-
 
 server.use(express.static(path.join(__dirname, "./build"))); // this is serve for react file
 
