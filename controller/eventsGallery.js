@@ -110,12 +110,12 @@ const subscribeNewEventsNotification = async (req, res) => {
     //     res.status(400).send('error in the controller' + error)
     // }
     else {
-      res.status(400).send('error in the controller :' + error)
+      res.status(400).send('error in the controller :')
     }
   }
   else {
     console.log("error in subscribeNewEventsNotification")
-    res.status(400).send('error in the correntContactId' + error)
+    res.status(400).send('error in the correntContactId')
   }
 
 }
